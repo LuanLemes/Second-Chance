@@ -1,0 +1,12 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+The label bathroom is defined twice, at File "game/scripts/map/locations/Laundry Room.rpy", line 23:
+label bathroom:
+and File "game/scripts/map/locations/bathroom.rpy", line 23:
+label bathroom:
+
+
+Ren'Py Version: Ren'Py 8.0.3.22090809
+Wed Jan 25 10:45:07 2023

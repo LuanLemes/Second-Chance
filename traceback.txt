@@ -1,0 +1,106 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/scripts/scenes/default_scenes.rpy", line 16, in script call
+    call enter_map
+  File "game/scripts/map/map.rpy", line 13, in script call
+    call change_location_to("Bedroom 1")
+  File "game/scripts/map/map.rpy", line 74, in script call
+    $ renpy.call_screen(screen_name)
+  File "game/scripts/map/map.rpy", line 74, in script call
+    $ renpy.call_screen(screen_name)
+  File "game/scripts/map/map.rpy", line 74, in script call
+    $ renpy.call_screen(screen_name)
+  [Previous line repeated 15 more times]
+  File "game/scripts/map/map.rpy", line 116, in script call
+    call change_location_to(location)
+  File "game/scripts/map/map.rpy", line 116, in script call
+    call change_location_to(location)
+  File "game/scripts/map/map.rpy", line 74, in script call
+    $ renpy.call_screen(screen_name)
+  File "game/scripts/map/map.rpy", line 74, in script call
+    $ renpy.call_screen(screen_name)
+  File "game/scripts/map/map.rpy", line 74, in script call
+    $ renpy.call_screen(screen_name)
+  [Previous line repeated 15 more times]
+  File "game/scripts/map/map.rpy", line 116, in script call
+    call change_location_to(location)
+  File "game/scripts/map/map.rpy", line 116, in script call
+    call change_location_to(location)
+  File "game/scripts/map/map.rpy", line 116, in script call
+    call change_location_to(location)
+  [Previous line repeated 6 more times]
+  File "game/scripts/map/map.rpy", line 74, in script call
+    $ renpy.call_screen(screen_name)
+  File "game/scripts/map/map.rpy", line 74, in script call
+    $ renpy.call_screen(screen_name)
+  File "game/scripts/map/map.rpy", line 74, in script call
+    $ renpy.call_screen(screen_name)
+  [Previous line repeated 14 more times]
+  File "game/scripts/map/map.rpy", line 64, in script call
+    call update_image
+  File "game/scripts/map/map.rpy", line 107, in script
+    if list_of_images_bool[calendar.current_day_time - count] == True:
+  File "game/scripts/map/map.rpy", line 107, in <module>
+    if list_of_images_bool[calendar.current_day_time - count] == True:
+IndexError: list index out of range
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/scripts/scenes/default_scenes.rpy", line 16, in script call
+    call enter_map
+  File "game/scripts/map/map.rpy", line 13, in script call
+    call change_location_to("Bedroom 1")
+  File "game/scripts/map/map.rpy", line 74, in script call
+    $ renpy.call_screen(screen_name)
+  File "game/scripts/map/map.rpy", line 74, in script call
+    $ renpy.call_screen(screen_name)
+  File "game/scripts/map/map.rpy", line 74, in script call
+    $ renpy.call_screen(screen_name)
+  [Previous line repeated 15 more times]
+  File "game/scripts/map/map.rpy", line 116, in script call
+    call change_location_to(location)
+  File "game/scripts/map/map.rpy", line 116, in script call
+    call change_location_to(location)
+  File "game/scripts/map/map.rpy", line 74, in script call
+    $ renpy.call_screen(screen_name)
+  File "game/scripts/map/map.rpy", line 74, in script call
+    $ renpy.call_screen(screen_name)
+  File "game/scripts/map/map.rpy", line 74, in script call
+    $ renpy.call_screen(screen_name)
+  [Previous line repeated 15 more times]
+  File "game/scripts/map/map.rpy", line 116, in script call
+    call change_location_to(location)
+  File "game/scripts/map/map.rpy", line 116, in script call
+    call change_location_to(location)
+  File "game/scripts/map/map.rpy", line 116, in script call
+    call change_location_to(location)
+  [Previous line repeated 6 more times]
+  File "game/scripts/map/map.rpy", line 74, in script call
+    $ renpy.call_screen(screen_name)
+  File "game/scripts/map/map.rpy", line 74, in script call
+    $ renpy.call_screen(screen_name)
+  File "game/scripts/map/map.rpy", line 74, in script call
+    $ renpy.call_screen(screen_name)
+  [Previous line repeated 14 more times]
+  File "game/scripts/map/map.rpy", line 64, in script call
+    call update_image
+  File "game/scripts/map/map.rpy", line 107, in script
+    if list_of_images_bool[calendar.current_day_time - count] == True:
+  File "C:\Users\Luan\Documents\Work\renpy-8.0.3-sdk\renpy\ast.py", line 2115, in execute
+    if renpy.python.py_eval(condition):
+  File "C:\Users\Luan\Documents\Work\renpy-8.0.3-sdk\renpy\python.py", line 1092, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\Luan\Documents\Work\renpy-8.0.3-sdk\renpy\python.py", line 1085, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/scripts/map/map.rpy", line 107, in <module>
+    if list_of_images_bool[calendar.current_day_time - count] == True:
+  File "C:\Users\Luan\Documents\Work\renpy-8.0.3-sdk\renpy\revertable.py", line 217, in __getitem__
+    rv = list.__getitem__(self, index)
+IndexError: list index out of range
+
+Windows-10-10.0.19044 AMD64
+Ren'Py 8.0.3.22090809
+Second Chance 1.0
+Wed Jan 25 11:39:18 2023
