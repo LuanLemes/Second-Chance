@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/scripts/map/locations/hospital_room.rpy", line 689: end of line expected.
+    show kim: zoom 1.03
+              ^
+
+Ren'Py Version: Ren'Py 8.0.3.22090809
+Thu Mar  9 11:00:17 2023

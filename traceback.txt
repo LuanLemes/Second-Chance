@@ -1,0 +1,120 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/scripts/scenes/default_scenes.rpy", line 32, in script call
+    call enter_map
+  File "game/scripts/map/map.rpy", line 22, in script call
+    call change_location_to(default_location)
+  File "game/scripts/map/map.rpy", line 96, in script call
+    call expression screen_name
+  File "game/scripts/map/locations/your_room.rpy", line 51, in script call
+    call change_location_to("hallway")
+  File "game/scripts/map/map.rpy", line 102, in script call
+    $ renpy.call_screen(screen_name)
+  File "game/scripts/map/map.rpy", line 154, in script call
+    call change_location_to(location)
+  File "game/scripts/map/map.rpy", line 154, in script call
+    call change_location_to(location)
+  File "game/scripts/map/map.rpy", line 154, in script call
+    call change_location_to(location)
+  File "game/scripts/map/map.rpy", line 102, in script call
+    $ renpy.call_screen(screen_name)
+  File "game/scripts/map/map.rpy", line 102, in script call
+    $ renpy.call_screen(screen_name)
+  File "game/scripts/map/map.rpy", line 154, in script call
+    call change_location_to(location)
+  File "game/scripts/map/map.rpy", line 102, in script call
+    $ renpy.call_screen(screen_name)
+  File "game/scripts/map/map.rpy", line 154, in script call
+    call change_location_to(location)
+  File "game/scripts/map/map.rpy", line 154, in script call
+    call change_location_to(location)
+  File "game/scripts/map/map.rpy", line 154, in script call
+    call change_location_to(location)
+  [Previous line repeated 4 more times]
+  File "game/scripts/map/map.rpy", line 102, in script call
+    $ renpy.call_screen(screen_name)
+  File "game/scripts/map/map.rpy", line 102, in script call
+    $ renpy.call_screen(screen_name)
+  File "game/scripts/map/map.rpy", line 102, in script call
+    $ renpy.call_screen(screen_name)
+  File "game/scripts/map/map.rpy", line 96, in script call
+    call expression screen_name
+  File "game/scripts/map/locations/home.rpy", line 64, in script call
+    call change_location_to("Licue Realm")
+  File "game/scripts/map/map.rpy", line 96, in script call
+    call expression screen_name
+  File "game/scripts/map/locations/licue_realm.rpy", line 16, in script call
+    call licue_realm_quest
+  File "game/scripts/map/locations/licue_realm.rpy", line 634, in script call
+    call change_location_to("Hospital Room")
+  File "game/scripts/map/map.rpy", line 96, in script call
+    call expression screen_name
+  File "game/scripts/map/locations/hospital_room.rpy", line 539, in script
+    everyone "..."
+Exception: Sayer 'everyone' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/scripts/scenes/default_scenes.rpy", line 32, in script call
+    call enter_map
+  File "game/scripts/map/map.rpy", line 22, in script call
+    call change_location_to(default_location)
+  File "game/scripts/map/map.rpy", line 96, in script call
+    call expression screen_name
+  File "game/scripts/map/locations/your_room.rpy", line 51, in script call
+    call change_location_to("hallway")
+  File "game/scripts/map/map.rpy", line 102, in script call
+    $ renpy.call_screen(screen_name)
+  File "game/scripts/map/map.rpy", line 154, in script call
+    call change_location_to(location)
+  File "game/scripts/map/map.rpy", line 154, in script call
+    call change_location_to(location)
+  File "game/scripts/map/map.rpy", line 154, in script call
+    call change_location_to(location)
+  File "game/scripts/map/map.rpy", line 102, in script call
+    $ renpy.call_screen(screen_name)
+  File "game/scripts/map/map.rpy", line 102, in script call
+    $ renpy.call_screen(screen_name)
+  File "game/scripts/map/map.rpy", line 154, in script call
+    call change_location_to(location)
+  File "game/scripts/map/map.rpy", line 102, in script call
+    $ renpy.call_screen(screen_name)
+  File "game/scripts/map/map.rpy", line 154, in script call
+    call change_location_to(location)
+  File "game/scripts/map/map.rpy", line 154, in script call
+    call change_location_to(location)
+  File "game/scripts/map/map.rpy", line 154, in script call
+    call change_location_to(location)
+  [Previous line repeated 4 more times]
+  File "game/scripts/map/map.rpy", line 102, in script call
+    $ renpy.call_screen(screen_name)
+  File "game/scripts/map/map.rpy", line 102, in script call
+    $ renpy.call_screen(screen_name)
+  File "game/scripts/map/map.rpy", line 102, in script call
+    $ renpy.call_screen(screen_name)
+  File "game/scripts/map/map.rpy", line 96, in script call
+    call expression screen_name
+  File "game/scripts/map/locations/home.rpy", line 64, in script call
+    call change_location_to("Licue Realm")
+  File "game/scripts/map/map.rpy", line 96, in script call
+    call expression screen_name
+  File "game/scripts/map/locations/licue_realm.rpy", line 16, in script call
+    call licue_realm_quest
+  File "game/scripts/map/locations/licue_realm.rpy", line 634, in script call
+    call change_location_to("Hospital Room")
+  File "game/scripts/map/map.rpy", line 96, in script call
+    call expression screen_name
+  File "game/scripts/map/locations/hospital_room.rpy", line 539, in script
+    everyone "..."
+  File "C:\Users\Luan\Documents\Work\renpy-8.0.3-sdk\renpy\ast.py", line 881, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\Luan\Documents\Work\renpy-8.0.3-sdk\renpy\ast.py", line 774, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'everyone' is not defined.
+
+Windows-10-10.0.19044 AMD64
+Ren'Py 8.0.3.22090809
+Second Chance 1.0
+Wed Mar  8 16:40:57 2023
